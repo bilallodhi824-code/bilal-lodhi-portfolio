@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1320" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ff7a1a" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ff7a1a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <rect width="64" height="64" rx="16" fill="url(#glow)" />
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="15.25" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" />
+  <text x="29" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" text-anchor="middle" letter-spacing="-1.5">
+    <tspan fill="#f4f4f6">B</tspan><tspan fill="#ff7a1a">K</tspan>
+  </text>
+  <circle cx="51" cy="40" r="3" fill="#ff7a1a" />
+</svg>
